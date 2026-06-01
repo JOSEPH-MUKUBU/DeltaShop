@@ -38,7 +38,7 @@
 - **Docker Desktop** (optionnel, pour MongoDB)
 
 ### 2️ Installation des dépendances
-\\\\\\ash
+\\\\\\bash
 npm install
 \\\\\\
 Cela installe les dépendances du backend et du frontend (monorepo avec workspaces npm).
@@ -46,7 +46,7 @@ Cela installe les dépendances du backend et du frontend (monorepo avec workspac
 ### 3️ Configuration MongoDB
 
 #### Option A : Docker (Recommandé)
-\\\\\\ash
+\\\\\\bash
 docker-compose up -d
 \\\\\\
 MongoDB sera accessible sur \mongodb://localhost:27017/deltashop\
@@ -59,18 +59,18 @@ MONGO_URI=mongodb://localhost:27017/deltashop
 
 ### 4️ Variables d'Environnement
 Copier \.env.example\ vers \.env\ à la racine du projet :
-\\\\\\ash
+\\\\\\bash
 cp .env.example .env
 \\\\\\
 
 ### 5️ Initialiser la Base de Données
-\\\\\\ash
+\\\\\\bash
 npm run seed
 \\\\\\
 Cela crée l'utilisateur admin et les données initiales (produits, avis, etc.).
 
 ### 6️ Lancer l'Application
-\\\\\\ash
+\\\\\\bash
 npm run dev
 \\\\\\
 - **Frontend** : http://localhost:5173
@@ -147,7 +147,7 @@ Pour accéder à l'admin : Connexion → Page Admin
 
 ##  Structure du Projet
 
-\\\\\\
+
 Delta-Commerce/
 ├── backend/                          # API Node.js/Express
 │   ├── src/
