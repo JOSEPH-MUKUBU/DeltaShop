@@ -1,4 +1,4 @@
-﻿# 🛍️ DeltaShop - E-commerce Full-Stack MERN
+﻿#  DeltaShop - E-commerce Full-Stack MERN
 
 **DeltaShop** est une plateforme e-commerce moderne et complète construite avec la stack **MERN** (MongoDB, Express, React, Node.js). Le projet offre une expérience d'achat intuitive avec un back-office administrateur puissant pour la gestion des produits, utilisateurs et commandes.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 📸 Aperçu du Projet
+##  Aperçu du Projet
 
 ### Page d'Accueil
 ![Boutique](Captures/Boutique.png)
@@ -30,20 +30,20 @@
 
 ---
 
-## 🚀 Démarrage Rapide
+##  Démarrage Rapide
 
-### 1️⃣ Prérequis
+### 1️ Prérequis
 - **Node.js** 20+ recommandé
 - **npm** 10+
 - **Docker Desktop** (optionnel, pour MongoDB)
 
-### 2️⃣ Installation des dépendances
+### 2️ Installation des dépendances
 \\\\\\ash
 npm install
 \\\\\\
 Cela installe les dépendances du backend et du frontend (monorepo avec workspaces npm).
 
-### 3️⃣ Configuration MongoDB
+### 3️ Configuration MongoDB
 
 #### Option A : Docker (Recommandé)
 \\\\\\ash
@@ -57,19 +57,19 @@ Adapter la variable d'environnement \MONGO_URI\ dans \.env\ :
 MONGO_URI=mongodb://localhost:27017/deltashop
 \\\\\\
 
-### 4️⃣ Variables d'Environnement
+### 4️ Variables d'Environnement
 Copier \.env.example\ vers \.env\ à la racine du projet :
 \\\\\\ash
 cp .env.example .env
 \\\\\\
 
-### 5️⃣ Initialiser la Base de Données
+### 5️ Initialiser la Base de Données
 \\\\\\ash
 npm run seed
 \\\\\\
 Cela crée l'utilisateur admin et les données initiales (produits, avis, etc.).
 
-### 6️⃣ Lancer l'Application
+### 6️ Lancer l'Application
 \\\\\\ash
 npm run dev
 \\\\\\
@@ -78,7 +78,7 @@ npm run dev
 
 ---
 
-## 📋 Comptes de Test
+##  Comptes de Test
 
 ### Compte Admin
 \\\\\\
@@ -90,62 +90,62 @@ Pour accéder à l'admin : Connexion → Page Admin
 
 ---
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
-### 👤 Authentification & Utilisateurs
-- ✅ Inscription avec validation d'email
-- ✅ Connexion/Déconnexion avec JWT
-- ✅ Gestion de profil utilisateur
-- ✅ Récupération de mot de passe (structure prête)
-- ✅ Dashboard utilisateur avec historique de commandes
+###  Authentification & Utilisateurs
+-  Inscription avec validation d'email
+-  Connexion/Déconnexion avec JWT
+-  Gestion de profil utilisateur
+-  Récupération de mot de passe (structure prête)
+-  Dashboard utilisateur avec historique de commandes
 
-### 🛒 Catalogue & Produits
-- ✅ Affichage du catalogue avec pagination
-- ✅ Filtrage par catégorie
-- ✅ Recherche full-text des produits
-- ✅ Page détaillée de produit
-- ✅ Avis et notes des clients
-- ✅ Produits tendance
-- ✅ Offres spéciales (Deals of the Day)
-- ✅ Produits récemment consultés (localStorage)
+###  Catalogue & Produits
+-  Affichage du catalogue avec pagination
+-  Filtrage par catégorie
+-  Recherche full-text des produits
+-  Page détaillée de produit
+-  Avis et notes des clients
+-  Produits tendance
+-  Offres spéciales (Deals of the Day)
+-  Produits récemment consultés (localStorage)
 
-### 🛍️ Panier & Commandes
-- ✅ Panier persistant (localStorage)
-- ✅ Ajout/Suppression d'articles
-- ✅ Calcul automatique du total
-- ✅ Création de commandes
-- ✅ Historique des commandes
-- ✅ Détails de chaque commande
+###  Panier & Commandes
+-  Panier persistant (localStorage)
+-  Ajout/Suppression d'articles
+-  Calcul automatique du total
+-  Création de commandes
+-  Historique des commandes
+-  Détails de chaque commande
 
-### ❤️ Liste de Souhaits
-- ✅ Ajouter/Retirer des produits favoris
-- ✅ Affichage de la wishlist personnelle
-- ✅ Persistance en base de données
+###  Liste de Souhaits
+-  Ajouter/Retirer des produits favoris
+-  Affichage de la wishlist personnelle
+-  Persistance en base de données
 
-### 📧 Newsletter
-- ✅ Inscription à la newsletter
-- ✅ Gestion des abonnés (admin)
-- ✅ Export CSV des abonnés
+###  Newsletter
+-  Inscription à la newsletter
+-  Gestion des abonnés (admin)
+-  Export CSV des abonnés
 
-### 🎛️ Espace Administrateur
-- ✅ **Dashboard** : Vue d'ensemble des statistiques
-- ✅ **Gestion Produits** : CRUD complet
-- ✅ **Gestion Catégories** : Créer/Modifier les catégories
-- ✅ **Gestion Utilisateurs** : Voir/Gérer les utilisateurs
-- ✅ **Gestion Commandes** : Suivi des commandes
-- ✅ **Gestion Sliders** : Bannières personnalisables
-- ✅ **Gestion Newsletter** : Voir les abonnés, export CSV
-- ✅ **Produits Tendance** : Marquer les produits populaires
+###  Espace Administrateur
+-  **Dashboard** : Vue d'ensemble des statistiques
+-  **Gestion Produits** : CRUD complet
+-  **Gestion Catégories** : Créer/Modifier les catégories
+-  **Gestion Utilisateurs** : Voir/Gérer les utilisateurs
+-  **Gestion Commandes** : Suivi des commandes
+-  **Gestion Sliders** : Bannières personnalisables
+-  **Gestion Newsletter** : Voir les abonnés, export CSV
+-  **Produits Tendance** : Marquer les produits populaires
 
-### 🎨 Design & UX
-- ✅ Interface responsive (mobile, tablette, desktop)
-- ✅ Thème sombre/clair (structure prête)
-- ✅ Animations et transitions fluides
-- ✅ Design Tailwind CSS moderne
+###  Design & UX
+-  Interface responsive (mobile, tablette, desktop)
+-  Thème sombre/clair (structure prête)
+-  Animations et transitions fluides
+-  Design Tailwind CSS moderne
 
 ---
 
-## 📁 Structure du Projet
+##  Structure du Projet
 
 \\\\\\
 Delta-Commerce/
@@ -203,7 +203,7 @@ Delta-Commerce/
 
 ---
 
-## 🛠️ Technologies Utilisées
+##  Technologies Utilisées
 
 ### Backend
 - **Express.js** - Framework web
@@ -226,7 +226,7 @@ Delta-Commerce/
 
 ---
 
-## 🔧 Scripts Disponibles
+##  Scripts Disponibles
 
 ### Root
 \\\\\\ash
@@ -254,7 +254,7 @@ npm run preview         # Prévisualise la build
 
 ---
 
-## 🔐 Authentification & Sécurité
+##  Authentification & Sécurité
 
 - **JWT Bearer Token** : Stocké en localStorage côté client
 - **Hash Bcrypt** : Mots de passe hashés (salt: 10)
@@ -263,7 +263,7 @@ npm run preview         # Prévisualise la build
 
 ---
 
-## 📦 Installation pour la Production
+##  Installation pour la Production
 
 \\\\\\ash
 # Build frontend
@@ -278,7 +278,7 @@ npm start
 
 ---
 
-## 🐛 Dépannage
+##  Dépannage
 
 ### MongoDB ne se connecte pas
 \\\\\\ash
@@ -301,7 +301,7 @@ npm run seed
 
 ---
 
-## 📝 Notes de Développement
+##  Notes de Développement
 
 - Le projet utilise **ES Modules** (\ type\: \module\\ dans package.json)
 - Monorepo avec **npm workspaces**
@@ -311,7 +311,7 @@ npm run seed
 
 ---
 
-## 📄 Licence
+##  Licence
 
 MIT
 
